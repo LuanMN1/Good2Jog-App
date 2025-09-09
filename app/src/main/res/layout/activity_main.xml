@@ -103,7 +103,7 @@
     <!-- LinearLayout horizontal para os dois cards -->
     <LinearLayout
         android:id="@+id/buttonCardLayout"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:weightSum="2"
@@ -132,11 +132,13 @@
                 android:textSize="32sp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="Use my location"
                 android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -166,6 +168,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:text="Search city"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:textStyle="bold" />

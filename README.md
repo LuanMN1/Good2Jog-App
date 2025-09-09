@@ -13,7 +13,7 @@ Good2Jog is a simple mobile app that helps you decide if the weather is good for
 ---
 
 ## Screenshots
-<img width="378" height="679" alt="image" src="https://github.com/user-attachments/assets/88e70790-7d7a-442d-ad45-3ba0f343a0f1" />
+<img width="376" height="669" alt="image" src="https://github.com/user-attachments/assets/2fd78935-57ff-4071-bb1d-8ca909ed0834" />
 
 
 ---
@@ -25,4 +25,17 @@ Good2Jog is a simple mobile app that helps you decide if the weather is good for
 
 ---
 
-## How to run the application
+## How to Run Application (Quick Install)
+
+1. **Download the APK**  
+   Go to the `apks` folder in this repository and download the `app-debug.apk` file to your Android device.
+
+2. **Allow installation from unknown sources**  
+   - On your device, go to **Settings → Security → Install unknown apps**.  
+   - Allow the app you’ll use to open the APK (e.g., file manager or browser).
+
+3. **Install and run**  
+   - Open the downloaded APK on your device and follow the installation prompts.  
+   - Launch **Good2Jog** from your app drawer.
+
+> ⚠️ Note: This is a debug build. For production, a release build is recommended.
